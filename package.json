@@ -11,5 +11,7 @@
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "serverless": "^2.21.1"
+  }
 }
