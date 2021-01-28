@@ -8,7 +8,7 @@ provider:
 
 functions:
   app:
-    handler: app.handler
+    handler: index.handler
     events:
       - http: ANY /
         method: post
@@ -36,3 +36,5 @@ functions:
             - Access-Control-Allow-Methods
             - Access-Control-Allow-Credentials
           allowCredentials: true
+plugins:
+  - serverless-offline
